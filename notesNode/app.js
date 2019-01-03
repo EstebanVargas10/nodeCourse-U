@@ -7,7 +7,7 @@ const notes = require('./notes.js');
 var user = os.userInfo();
 
 
-// var res = notes.addNote();
+var res = notes.addNote();
 console.log('Results: ', notes.add(9, -8));
 
 // fs.appendFile('greetings.txt', `Hello ${user.username}! You are ${notes.age}`, function(err) {
